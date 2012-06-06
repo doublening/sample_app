@@ -39,4 +39,6 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'spork', '0.8.4'
+  gem 'webrat', '0.7.1'
 end
