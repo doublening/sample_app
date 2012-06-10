@@ -7,12 +7,13 @@
 <body>
 <div class="container">
 	<div id="header">
-		 z<%= render 'layouts/header' %>
+		 <%= render 'layouts/header' %>
 	</div>
 	<div id="content" class="round">
 		<%=yield%>
 	</div>
 	<%= render 'layouts/footer' %>
+	<%=debug(params) if Rails.env.development?%>
 </div>
 </body>
 </html>
