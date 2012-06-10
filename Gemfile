@@ -24,6 +24,7 @@ end
 
 gem 'jquery-rails'
 
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -44,4 +45,5 @@ group :development, :test do
   gem 'webrat', '0.7.1'
   gem 'rspec-rails', '2.10.0'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'factory_girl', '3.3.0'
 end
